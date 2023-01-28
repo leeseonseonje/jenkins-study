@@ -8,6 +8,6 @@ public class JenkinsController {
 
     @GetMapping("/jenkins")
     public String helloJenkins() {
-        return "helloJenkins";
+        return "hello jenkins";
     }
 }
